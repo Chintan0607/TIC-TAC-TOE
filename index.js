@@ -2,6 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const boxes = document.querySelectorAll('.box');
     const gameInfo = document.querySelector('.game-info');
     const newGameButton = document.querySelector('.btn');
+    const congratsMessage = document.querySelector('.congratulations-message');
+
 
     let currentPlayer = 'X';
     let gameActive = true;
@@ -31,10 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (checkWinner()) {
             gameInfo.textContent = `Player ${currentPlayer} has won!`;
+            congratsMessage.textContent = `Congratulations! Player ${currentPlayer} has won!`;
+            congratsMessage.style.display = 'block';
             gameActive = false;
             highlightWinningBoxes();
         } else if (!gameState.includes('')) {
             gameInfo.textContent = `It's a draw!`;
+             congratsMessage.textContent = `It's a draw!`;
+            congratsMessage.style.display = 'block';
             gameActive = false;
         } else {
             currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
