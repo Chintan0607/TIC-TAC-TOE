@@ -4,6 +4,10 @@
     margin: 0;
     font-family: 'Poppins',' ';
 }
+.congratulations-message {
+    top: 6rem;
+    display: none;
+}
 .wrapper{
     width: 100vw;
     height: 100vh;
