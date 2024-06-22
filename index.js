@@ -74,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
         gameActive = true;
         currentPlayer = 'X';
         gameInfo.textContent = `Current player: ${currentPlayer}`;
+         congratsMessage.style.display = 'none';
         boxes.forEach(box => {
             box.textContent = '';
             box.classList.remove('win');
