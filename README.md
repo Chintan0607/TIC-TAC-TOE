@@ -21,7 +21,7 @@ This implementation allows two players to play the game in a simple, clean, and 
 - Displays the winner or declares a draw at the end of the game.
 
 ## Demo
-Check out the live demo of Tic-Tac-Toe [![Live Demo](https://img.shields.io/badge/Demo-Here-brightgreen)](https://https://chintan0607.github.io/TIC-TAC-TOE/.com). 
+Check out the live demo of Tic-Tac-Toe [![Live Demo](https://img.shields.io/badge/Demo-Here-brightgreen)](https://chintan0607.github.io/TIC-TAC-TOE/). 
 
 
 ## Installation
@@ -29,7 +29,7 @@ To get a local copy up and running, follow these steps:
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/Chintan0607/tic-tac-toe.git <!-- Replace with your GitHub repo link -->
+    git clone https://github.com/Chintan0607/TIC-TAC-TOE.git
     ```
 
 2. **Navigate to the project directory:**
@@ -64,4 +64,4 @@ Contributions are what make the open-source community such an amazing place to b
 Distributed under the MIT License. See `LICENSE` for more information.
  <!-- Replace with your email -->
 
-Project Link: [![GitHub](https://img.shields.io/badge/GitHub-Repo-brightgreen)](https://github.com/Chintan0607/tic-tac-toe) <!-- Replace with your GitHub repo link -->
+Project Link: [![GitHub](https://img.shields.io/badge/GitHub-Repo-brightgreen)](https://github.com/Chintan0607/TIC-TAC-TOE.git) 
